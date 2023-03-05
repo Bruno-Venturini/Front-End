@@ -1,0 +1,92 @@
+input {
+    border-style: ridge;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    border: 2px;
+    border-style: ridge;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 125px;
+}
+
+.div-header{
+    font-family: "Comic Sans MS";
+    font-weight: bolder;
+    display: inherit;
+    flex-direction: inherit;
+    color: purple;
+    padding: 2px;
+    border: 1px;
+    border-style: solid;
+}
+
+.div-body {
+    border: 2px;
+    border-style: solid;
+    height: 400px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.campos-esquerda{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.campos-esquerda input{
+    margin-bottom: 4px;
+}
+
+.campos-direita{
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+.campos-direita input{
+    margin-bottom: 4px;
+}
+
+
+.div-footer {
+    margin-bottom: 20px;
+    display: inherit;
+    flex-direction: row;
+}
+
+.botoes-footer {
+    display: inherit;
+    flex-direction: inherit;
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 4px;
+    margin-right: 4px;
+    width: 100%;
+}
+.div-body input::placeholder {
+    color: black;
+}
+
+.chat {
+    align-self: start;
+    width: 75%;
+}
+
+.submit{
+    margin-left: 5px;
+    align-self: center;
+    text-align: center;
+    width: 25%;
+    color: green;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
